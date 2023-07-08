@@ -15,7 +15,7 @@
 //
 
 cc_library {
-    name: "bootctrl.moto_sm8475",
+    name: "bootctrl.nubia_sm8475",
     defaults: ["bootctrl_hal_defaults"],
     static_libs: ["libgptutils.nubia_sm8475"],
 }

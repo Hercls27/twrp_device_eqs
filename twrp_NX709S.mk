@@ -17,17 +17,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from hiphi device
-$(call inherit-product, device/motorola/eqs/device.mk)
+$(call inherit-product, device/nubia/NX709S/device.mk)
 
-PRODUCT_DEVICE := eqs
-PRODUCT_NAME := twrp_eqs
-PRODUCT_BRAND := motorola
-PRODUCT_MODEL := motorola edge 30 pro
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_DEVICE := NX709S
+PRODUCT_NAME := twrp_NX709S
+PRODUCT_BRAND := Nubia
+PRODUCT_MODEL := RedMagic 7S Pro
+PRODUCT_MANUFACTURER := Nubia
 
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
+PRODUCT_GMS_CLIENTID_BASE := android-nubia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="eqs_ge-user 12 S3SQS32.16-72-31-3 47c58c-b5d541 release-keys"
+    PRIVATE_BUILD_DESC="NX709S-user 12 SKQ1.220502.001 eng.nubia.20230513.165016 release-keys"
 
-BUILD_FINGERPRINT := motorola/eqs_ge/msi:12/S3SQS32M.16-72-31-3/47c58c-b5d541:user/release-keys
+BUILD_FINGERPRINT := nubia/NX709S/NX709S:12/SKQ1.220502.001/eng.nubia.20230513.165016:user/release-keys
